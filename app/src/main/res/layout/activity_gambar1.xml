@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity">
+    tools:context=".Gambar1">
 
     <ImageView
         android:layout_width="match_parent"
@@ -28,6 +28,7 @@
             android:backgroundTint="#CCED1D"
             android:text="@string/button_1"
             android:textSize="20sp"
+            android:textColor="@color/black"
             android:textStyle="bold"
             style="?android:attr/buttonBarButtonStyle"/>
 
@@ -39,6 +40,7 @@
             android:layout_width="145dp"
             android:layout_height="match_parent"
             android:backgroundTint="#CCED1D"
+            android:textColor="@color/black"
             style="?android:attr/buttonBarButtonStyle"/>
     </LinearLayout>
 
@@ -49,7 +51,8 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#CCED1D"/>
+        android:backgroundTint="#CCED1D"
+        android:textColor="@color/black"/>
     
     <LinearLayout
         android:orientation="horizontal"
@@ -63,7 +66,8 @@
             android:layout_marginTop="20dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#CCED1D"/>
+            android:backgroundTint="#CCED1D"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -78,7 +82,8 @@
             android:textSize="20sp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#CCED1D"/>
+            android:backgroundTint="#CCED1D"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -97,6 +102,7 @@
             android:backgroundTint="@color/black"
             android:drawableEnd="@drawable/back"
             android:paddingEnd="8dp"
+            android:text="@string/a"
             tools:ignore="RtlSymmetry"/>
 
 
@@ -116,7 +122,8 @@
             app:cornerRadius="0dp"
             android:backgroundTint="@color/black"
             android:drawableEnd="@drawable/next"
-            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/b"
             tools:ignore="RtlSymmetry"/>
 
     </LinearLayout>

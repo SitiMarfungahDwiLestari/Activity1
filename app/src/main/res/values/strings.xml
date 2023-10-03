@@ -7,4 +7,13 @@
     <string name="right">Right</string>
     <string name="left">Left</string>
     <string name="select_your_bias">select your bias!</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="name">Name:</string>
+    <string name="phone">Phone:</string>
+    <string name="address">Address:</string>
 </resources>

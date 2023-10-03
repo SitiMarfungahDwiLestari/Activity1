@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Activity1</string>
+    <string name="nct">nct</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="match_parent">MATCH PARENT</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="select_your_bias">select your bias!</string>
+</resources>
